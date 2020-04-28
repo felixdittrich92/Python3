@@ -1,20 +1,28 @@
 import argparse
 
+def check_for_boolean_value(val):
+    if val == "True":
+        return True
+    else:
+        return False
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--val1", help='first value (int)', type=int, required=True, dest='val1')
-    parser.add_argument("--val2", help='first value (str)', type=str, required=True, dest='val2')
-    parser.add_argument("--val3", help='first value (bool)', type=bool, required=True, dest='val3')
+    parser.add_argument("--age", help='Enter your age (int)', type=int, required=True)
+    parser.add_argument("--name", help='Enter your name (str)', type=str, required=True)
+    parser.add_argument("--admin", help='Are you an admin ? (bool)', type=check_for_boolean_value, required=False, default=False)
     args = parser.parse_args()
     
-    a = args.val1
-    b = args.val2
-    c = args.val3
-    print(a, type(a))
-    print(b, type(b))
-    print(c, type(c))
+    age = args.age
+    name = args.name
+    is_admin = args.admin
+    print(age, type(age))
+    print(name, type(name))
+    print(is_admin, type(is_admin))
 
-    # Bsp.: E:/Programme/Anaconda/python.exe c:/Users/felix/Desktop/Python3/other/argument_parser.py --val1=10 --val2=a --val3=False
+    # Bsp.: E:/Programme/Anaconda/python.exe c:/Users/felix/Desktop/Python3/other/argument_parser.py --age=20 --name=Hans --admin=False
+    # Bsp.: E:/Programme/Anaconda/python.exe c:/Users/felix/Desktop/Python3/other/argument_parser.py --h
+
 
 if __name__ == "__main__":
     main()
