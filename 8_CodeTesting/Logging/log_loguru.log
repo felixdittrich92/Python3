@@ -1,0 +1,54 @@
+2020-05-10 19:41:43.404 | DEBUG    | __main__:divide_integers:19 - a=10, b=0
+2020-05-10 19:41:43.408 | ERROR    | __main__:main:25 - An error has been caught in function 'main', process 'MainProcess' (1052), thread 'MainThread' (12000):
+Traceback (most recent call last):
+
+  File "c:/Users/felix/Desktop/Python3/8_CodeTesting/Logging/extern_logger.py", line 28, in <module>
+    main()
+    -> <function main at 0x000001E76076AAF8>
+
+> File "c:/Users/felix/Desktop/Python3/8_CodeTesting/Logging/extern_logger.py", line 25, in main
+    print(divide_integers(10, 0))
+          -> <function divide_integers at 0x000001E7600F0708>
+
+  File "c:/Users/felix/Desktop/Python3/8_CodeTesting/Logging/extern_logger.py", line 20, in divide_integers
+    result = a / b
+             |   -> 0
+             -> 10
+
+ZeroDivisionError: division by zero
+2020-05-10 19:41:43.446 | DEBUG    | __main__:divide_integers:19 - a=10, b=0
+2020-05-10 19:41:43.449 | ERROR    | __main__:main:25 - An error has been caught in function 'main', process 'MainProcess' (1052), thread 'MainThread' (12000):
+Traceback (most recent call last):
+
+  File "c:/Users/felix/Desktop/Python3/8_CodeTesting/Logging/extern_logger.py", line 28, in <module>
+    main()
+    -> <function main at 0x000001E76076AAF8>
+
+> File "c:/Users/felix/Desktop/Python3/8_CodeTesting/Logging/extern_logger.py", line 25, in main
+    print(divide_integers(10, 0))
+          -> <function divide_integers at 0x000001E7600F0708>
+
+  File "c:/Users/felix/Desktop/Python3/8_CodeTesting/Logging/extern_logger.py", line 20, in divide_integers
+    result = a / b
+             |   -> 0
+             -> 10
+
+ZeroDivisionError: division by zero
+2020-05-10 19:41:43.471 | DEBUG    | __main__:divide_integers:19 - a=10, b=0
+2020-05-10 19:41:43.481 | ERROR    | __main__:main:25 - An error has been caught in function 'main', process 'MainProcess' (1052), thread 'MainThread' (12000):
+Traceback (most recent call last):
+
+  File "c:/Users/felix/Desktop/Python3/8_CodeTesting/Logging/extern_logger.py", line 28, in <module>
+    main()
+    -> <function main at 0x000001E76076AAF8>
+
+> File "c:/Users/felix/Desktop/Python3/8_CodeTesting/Logging/extern_logger.py", line 25, in main
+    print(divide_integers(10, 0))
+          -> <function divide_integers at 0x000001E7600F0708>
+
+  File "c:/Users/felix/Desktop/Python3/8_CodeTesting/Logging/extern_logger.py", line 20, in divide_integers
+    result = a / b
+             |   -> 0
+             -> 10
+
+ZeroDivisionError: division by zero

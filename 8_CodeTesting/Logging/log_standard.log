@@ -1,0 +1,15 @@
+2020-05-10 19:40:00,713:ERROR:divide_integers:Exception was raised: division by zero
+Traceback (most recent call last):
+  File "c:/Users/felix/Desktop/Python3/8_CodeTesting/Logging/logger.py", line 27, in divide_integers
+    result = a / b
+ZeroDivisionError: division by zero
+2020-05-10 19:40:00,714:ERROR:divide_integers:Exception was raised: division by zero
+Traceback (most recent call last):
+  File "c:/Users/felix/Desktop/Python3/8_CodeTesting/Logging/logger.py", line 27, in divide_integers
+    result = a / b
+ZeroDivisionError: division by zero
+2020-05-10 19:40:00,714:ERROR:divide_integers:Exception was raised: division by zero
+Traceback (most recent call last):
+  File "c:/Users/felix/Desktop/Python3/8_CodeTesting/Logging/logger.py", line 27, in divide_integers
+    result = a / b
+ZeroDivisionError: division by zero
