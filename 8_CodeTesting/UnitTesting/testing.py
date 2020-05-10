@@ -1,4 +1,5 @@
 # spezielle Testfälle erstellen
+# Methoden/Funktionen müssen mit test_ anfangen
 
 import unittest
 
